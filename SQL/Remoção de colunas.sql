@@ -1,0 +1,9 @@
+ALTER TABLE public.year_tripdata
+DROP COLUMN started_at,
+DROP COLUMN start_station_id,
+DROP COLUMN ended_at,
+DROP COLUMN end_station_id,
+DROP COLUMN start_lat, 
+DROP COLUMN start_lng, 
+DROP COLUMN end_lat, 
+DROP COLUMN end_lng;
