@@ -1,3 +1,5 @@
+![image.png](img/logo.png)
+
 # Análise de compartilhamento de bicicletas - Cyclistic
 
 ### 1. Introdução
