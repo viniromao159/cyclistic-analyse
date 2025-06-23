@@ -68,6 +68,7 @@ A ferramenta selecionada foi o SQL para realizar o processo de limpeza, tratamen
 Ferramentas utilizadas no projeto:
 
 - **PostgreSQL/pgAdmin**: para armazenamento, limpeza, transformação dos dados e análise dos dados.
+- **Python (Pandas, Numpy, Matplotlib)**: Utilizado para criação dos visuais das análises.
 
 #### Carga dos dados
 
@@ -536,7 +537,31 @@ Resultado:
 
 ---
 
-### 5. Conclusão
+### 5. Visualização
+
+Para explorar e comunicar melhor os insights dos dados, utilizei `Python` juntamente com bibliotecas como `Matplotlib` `Pandas` e `Numpy` para criar visualizações gráficas das análises.
+
+O código responsável pela geração dos gráficos está localizado em: `src/graphics.py`.
+
+#### Gráfico - Media de tempo por tipo de usuário
+
+![image.png](graphics/avg_trip.png)
+
+#### Gráfico - Bicicletas mais comuns
+
+![image.png](graphics/common_bikes.png)
+
+#### Gráfico - Dias das semanas mais comuns
+
+![image.png](graphics/weekday_count.png)
+
+#### Gráfico - Meses com mais viagens
+
+![image.png](graphics/month_count.png)
+
+---
+
+### 6. Conclusão
 
 Como os membros anuais e os ciclistas casuais usam as bicicletas Cyclistic de forma diferente?
 
@@ -555,4 +580,4 @@ Por: Vinicius L. Romão
 
 [LinkedIn](https://www.linkedin.com/in/viniciuslromao/) / [GitHub](https://github.com/viniromao159) / [Kaggle](https://www.kaggle.com/viniciuslromao) / [Tableau](https://public.tableau.com/app/profile/vinicius.lopes.rom.o/vizzes)
 
-## Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT).
+#### Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT).
